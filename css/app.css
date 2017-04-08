@@ -78,6 +78,14 @@ body {
     border-top-left-radius: 2px;
 }
 
+.header-link-current {
+    background-color: #1988ff;
+    border: 2px solid #1988ff;
+/*    border-bottom: 0px;*/
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
 .header h2.header-link a {
     font-size: 13px;
     margin: 0;
