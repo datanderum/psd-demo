@@ -90,6 +90,10 @@ body {
     max-width: 100%;
 }
 
+.black-background-2 {
+    background-color: #241212;
+}
+
 .blue-background-1 {
     background-color: #006fe6;
 }
@@ -112,6 +116,18 @@ body {
 
 .green-background-fix-variable {
     background-color: black;
+}
+
+@media screen and (max-width: 786px) {
+    .display-mobile-only {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 786px) {
+    .display-mobile-only {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 986px) {
