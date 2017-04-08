@@ -110,6 +110,22 @@ body {
     background-color: #17c200;
 }
 
+.green-background-fix-variable {
+    background-color: black;
+}
+
+@media screen and (max-width: 986px) {
+    .green-background-fix-variable {
+        background-color: #14a800;
+    }
+}
+
+@media screen and (min-width: 986px) {
+    .green-background-fix-variable {
+        background-color: #17c200;
+    }
+}
+
 .opacity-90 {
     opacity: 0.9;
 }
